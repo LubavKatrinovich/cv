@@ -3,120 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <title>Svincov IV</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <table>
-      <tr>
-        <td>
-          <img
-            src="https://twam.ru/wp-content/uploads/2024/03/kartinki-iz-simvolov-1.webp"
-            width="300"
-            alt="тут смайлик"
-          />
-        </td>
-        <td>
-          <h1>Свинцов Илья Владимирович</h1>
-          <hr />
-          <p>
-            Это сайт для <strong>практики</strong>, на котором я
-            <strong>попробую</strong> раскрыть свои навыки
-          </p>
-          <p>
-            Так же продемонстрировать свои умения в облости создания
-            <strong>небольших</strong> игр и проектов
-          </p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Опыт работы</h2>
-    <table>
-      <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>год</th>
-      </tr>
-      <tr>
-        <td>ООО"НПП"ЭКРА</td>
-        <td>Инженер 2 категории</td>
-        <td>2019-2025</td>
-      </tr>
-      <tr>
-        <td>Печатный цех</td>
-        <td>оператор чпу</td>
-        <td>2018-2019</td>
-      </tr>
-    </table>
-    <hr />
+    <div class="container">
+      <div class="info">
+        <img
+          src="https://twam.ru/wp-content/uploads/2024/03/kartinki-iz-simvolov-1.webp"
+          alt="тут смайлик"
+          class="avatar"
+        />
+        <h1>Свинцов Илья Владимирович</h1>
+        <p>
+          Это сайт для <strong>практики</strong>, на котором я
+          <strong>попробую</strong> раскрыть свои навыки
+        </p>
+        <p>
+          Так же продемонстрировать свои умения в облости создания
+          <strong>небольших</strong> игр и проектов
+        </p>
+        <h2>Мои социальные сети</h2>
 
-    <h2>Мои социальные сети</h2>
-    <ul type="">
-      <li><a href="https://vk.com/id57195086" target="_blank">Vk</a></li>   
-      <li><a href="https://t.me/LubavKatrinovich" target="_blank">Telegram</a></li>
-    </ul>
-    <hr />
-
-    <h2>Игры по ссылке ниже</h2>
-    <a href="Game.html">Список игр</a>
-    <hr />
-
-    <h2>Связаться со мной</h2>
-    <form action="https://opravdin.github.io/tools/querydecoder/" method="GET">
-      <label for="name">Ваше имя:</label>
-      <input
-        type="text"
-        id="name"
-        name="Ваше имя:"
-        placeholder="Введите ваше имя..."
-      />
-      <input
-        type="checkbox"
-        id="huey"
-        name="Скрыть имя"
-        value="Скрыть"
-        checked
-      />
-      <label for="huey">Скрыть</label>
-      <br />
-
-      <label for="name">Ваш возраст:</label>
-      <input
-        type="text"А
-        id="name"
-        name="Ваш возраст:"
-        placeholder="Введите ваш возраст..."
-      />
-      <br />
-
-      <label for="text">Ваше сообщение:</label>
-      <br />
-      <textarea id="text" name="Ваше сообщение:" rows="2" cols="15"></textarea>
-      <br />
-
-      <legend>Пожалуйста оцените сайт:</legend>
-
-      <div>
-        <input type="radio" id="huey" name="Оценка" value="1" checked />
-        <label for="huey">1</label>
+        <a href="https://vk.com/id57195086" target="_blank">Vk</a>
+        |
+        <a href="https://t.me/LubavKatrinovich" target="_blank">Telegram</a>
       </div>
 
-      <div>
-        <input type="radio" id="dewey" name="Оценка" value="2" />
-        <label for="dewey">2</label>
-      </div>
-      <div>
-        <input type="radio" id="dewey" name="Оценка" value="3" />
-        <label for="dewey">3</label>
-      </div>
-      <div>
-        <input type="radio" id="dewey" name="Оценка" value="4" />
-        <label for="dewey">4</label>
-      </div>
-      <div>
-        <input type="radio" id="dewey" name="Оценка" value="5" />
-        <label for="dewey">5</label>
-      </div>
-      <button type="submit">Отправить</button>
-    </form>
+      <hr />
+      <h2>Опыт работы</h2>
+      <table>
+        <tr>
+          <th>Компания</th>
+          <th>Должность</th>
+          <th>год</th>
+        </tr>
+        <tr>
+          <td>ООО"НПП"ЭКРА</td>
+          <td>Инженер 2 категории</td>
+          <td>2019-2025</td>
+        </tr>
+        <tr>
+          <td>Печатный цех</td>
+          <td>оператор чпу</td>
+          <td>2018-2019</td>
+        </tr>
+      </table>
+      <hr />
+
+      <h2>Игры по ссылке ниже</h2>
+      <a href="Game.html">Список игр</a>
+      <hr />
+
+      <form
+        action="https://opravdin.github.io/tools/querydecoder/"
+        method="GET"
+      >
+        <h2>Связаться со мной</h2>
+        <label for="name">Ваше имя:</label>
+        <input
+          type="text"
+          id="name"
+          name="Ваше имя:"
+          placeholder="Введите ваше имя..."
+        />
+        <input
+          type="checkbox"
+          id="huey"
+          name="Скрыть имя"
+          value="Скрыть"
+          checked
+        />
+        <label for="huey">Скрыть</label>
+        <br />
+
+        <label for="name">Ваш возраст:</label>
+        <input
+          type="text"
+          А
+          id="name"
+          name="Ваш возраст:"
+          placeholder="Введите ваш возраст..."
+        />
+        <br />
+
+        <label for="text">Ваше сообщение:</label>
+        <br />
+        <textarea
+          id="text"
+          name="Ваше сообщение:"
+          rows="2"
+          cols="15"
+        ></textarea>
+        <br />
+
+        <legend style="font-weight: 600">Пожалуйста оцените сайт:</legend>
+
+        <div>
+          <input type="radio" id="huey" name="Оценка" value="1" checked />
+          <label for="huey">1</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="Оценка" value="2" />
+          <label for="dewey">2</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="Оценка" value="3" />
+          <label for="dewey">3</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="Оценка" value="4" />
+          <label for="dewey">4</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="Оценка" value="5" />
+          <label for="dewey">5</label>
+        </div>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+
+    <div style="margin-bottom: 500px"></div>
   </body>
 </html>

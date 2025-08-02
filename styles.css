@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(119, 119, 209);
+}
+a:visited {
+  color: gray;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.icon {
+  width: 200px;
+  border: color(black);
+  border-width: 10p;
+  border-radius: px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* .ocenka {
+  background-color: #7c8163;
+} */
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* .social{
+background: #5f6e8b;
+/* padding: 15px; */
+/* padding: 15px 40px; */
+/* padding: 15px 20px 25px 30px; */
+/* padding-top: ;
+padding-right: ;
+padding-bottom: ;
+padding-left: ;
+
+margin: 5px;
+border: 5px solid red;
+border-bottom-style: dotted;
+border-top-width: ;
+} */
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.spisok {
+  max-width: 750px;
+  margin: auto;
+}
+
+.box-model > div {
+  float: left;
+  background: #cacfda;
+  width: 25%;
+  border: #0f141e;
+  padding: 2%;
+  margin: 2%;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #b3c8f3;
+}
